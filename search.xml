@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Python-while</title>
+      <link href="/2020/08/07/python-while/"/>
+      <url>/2020/08/07/python-while/</url>
+      
+        <content type="html"><![CDATA[<p>#while循环<br><strong>目的：</strong>判断输入年龄是否正确，错误三次后给与用户选择是否继续输入。</p><pre><code>#break终止本循环# continue跳出本次循环，执行下一次循环（不再向下执行，直接重新循环）age = 23 #声明变量number = 0 #声明计数器while number &lt;3: #设定循环条件        _age= int(input("input you guess at Lilei age:")) #python中input()方法默认为str类型，转换为int类型        if _age &gt; age:  #输入年龄与声明年龄比较            print("you guess at Lilei age big")        elif _age &lt; age:            print("you guess at Lilei age smail")        else:            print("you guess at Lilei age Correct..")            break #break终止循环        number +=1 #计数器自加1        if number == 3: #当用户判断三次以后(number==3)，执行以下代码            _number=0            while _number &lt;1:                cont = input("you continue guess? N/Y")                if cont == "N" or cont == "n":                    print("game stop")                elif cont == "Y" or cont == "y":                    number =0                else:                    print("input illegal !")                    continue #continue跳出本次循环，执行下一次循环（不再向下执行，直接重新循环）                _number +=1</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> While </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2020/08/04/hello-world/"/>
       <url>/2020/08/04/hello-world/</url>

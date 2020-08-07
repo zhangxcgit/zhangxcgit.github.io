@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhangxcgit.github.io/"/>
-  <updated>2020-08-04T01:54:45.850Z</updated>
+  <updated>2020-08-07T05:10:17.677Z</updated>
   <id>http://zhangxcgit.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python-while</title>
+    <link href="http://zhangxcgit.github.io/2020/08/07/python-while/"/>
+    <id>http://zhangxcgit.github.io/2020/08/07/python-while/</id>
+    <published>2020-08-07T05:08:54.000Z</published>
+    <updated>2020-08-07T05:10:17.677Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#while循环&lt;br&gt;&lt;strong&gt;目的：&lt;/strong&gt;判断输入年龄是否正确，错误三次后给与用户选择是否继续输入。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#break终止本循环
+# continue跳出本次循环，执行下一次循环（不再向下执行，直接重新循环）
+age =
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://zhangxcgit.github.io/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="http://zhangxcgit.github.io/tags/Python/"/>
+    
+      <category term="While" scheme="http://zhangxcgit.github.io/tags/While/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
